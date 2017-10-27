@@ -1,0 +1,6 @@
+rootProject.name = 'GlycoLeapQA_Rx'
+include 'HMUITestKit'
+include 'XTestKit'
+include 'XTestKitComponents'
+include 'JavaUtilities'
+

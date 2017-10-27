@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Runner"
+       parallel="instances"
+       thread-count="100"
+       data-provider-thread-count="100">
+
+</suite>

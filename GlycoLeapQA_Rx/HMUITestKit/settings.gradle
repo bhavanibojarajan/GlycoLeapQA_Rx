@@ -1,0 +1,3 @@
+rootProject.name = 'HMUITestKit'
+include 'XTestKit'
+include 'JavaUtilities'
