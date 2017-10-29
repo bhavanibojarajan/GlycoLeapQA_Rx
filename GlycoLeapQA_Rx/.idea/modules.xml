@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GlycoLeapQA_Rx.iml" filepath="$PROJECT_DIR$/GlycoLeapQA_Rx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GlycoLeapQA_Rx_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GlycoLeapQA_Rx_main.iml" group="GlycoLeapQA_Rx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GlycoLeapQA_Rx_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GlycoLeapQA_Rx_test.iml" group="GlycoLeapQA_Rx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HMUITestKit/HMUITestKit.iml" filepath="$PROJECT_DIR$/.idea/modules/HMUITestKit/HMUITestKit.iml" group="HMUITestKit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HMUITestKit/HMUITestKit_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HMUITestKit/HMUITestKit_main.iml" group="HMUITestKit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HMUITestKit/HMUITestKit_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HMUITestKit/HMUITestKit_test.iml" group="HMUITestKit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaUtilities/JavaUtilities.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaUtilities/JavaUtilities.iml" group="JavaUtilities" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaUtilities/JavaUtilities_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaUtilities/JavaUtilities_main.iml" group="JavaUtilities" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaUtilities/JavaUtilities_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaUtilities/JavaUtilities_test.iml" group="JavaUtilities" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XTestKit/XTestKit.iml" filepath="$PROJECT_DIR$/.idea/modules/XTestKit/XTestKit.iml" group="XTestKit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XTestKitComponents/XTestKitComponents.iml" filepath="$PROJECT_DIR$/.idea/modules/XTestKitComponents/XTestKitComponents.iml" group="XTestKitComponents" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XTestKitComponents/XTestKitComponents_main.iml" filepath="$PROJECT_DIR$/.idea/modules/XTestKitComponents/XTestKitComponents_main.iml" group="XTestKitComponents" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XTestKitComponents/XTestKitComponents_test.iml" filepath="$PROJECT_DIR$/.idea/modules/XTestKitComponents/XTestKitComponents_test.iml" group="XTestKitComponents" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XTestKit/XTestKit_main.iml" filepath="$PROJECT_DIR$/.idea/modules/XTestKit/XTestKit_main.iml" group="XTestKit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XTestKit/XTestKit_test.iml" filepath="$PROJECT_DIR$/.idea/modules/XTestKit/XTestKit_test.iml" group="XTestKit" />
+    </modules>
+  </component>
+</project>

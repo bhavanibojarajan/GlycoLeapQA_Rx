@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="GlycoLeapQA_Rx_main" target="1.8" />
+      <module name="GlycoLeapQA_Rx_test" target="1.8" />
+      <module name="HMUITestKit_main" target="1.8" />
+      <module name="HMUITestKit_test" target="1.8" />
+      <module name="JavaUtilities_main" target="1.8" />
+      <module name="JavaUtilities_test" target="1.8" />
+      <module name="XTestKit_main" target="1.8" />
+      <module name="XTestKit_test" target="1.8" />
+      <module name="XTestKitComponents_main" target="1.8" />
+      <module name="XTestKitComponents_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
