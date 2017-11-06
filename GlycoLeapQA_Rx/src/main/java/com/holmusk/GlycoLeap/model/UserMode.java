@@ -170,11 +170,31 @@ public enum UserMode implements ErrorProviderType, ValueRangeConverterType<Integ
     public String registerButtonText() {
         switch (this) {
             case GENERAL:
-                return "register_title_iAmParent";
+                return "register_title_general";
 
             case MARSH:
 
-                return "register_title_iAmTeen";
+                return "register_title_marsh";
+
+            default:
+                throw new RuntimeException(NOT_AVAILABLE);
+        }
+    }
+
+    /**
+            * Get {@link DashboardMode#ACTIVITY} keyword to be searched, because
+     * each {@link UserMode} group has a different activity metric.
+            * @return {@link String} value.
+     */
+    @NotNull
+    public String dashboardActivityKeyword() {
+        switch (this) {
+            case GENERAL:
+                return "dashboard_activity_title_mins";
+
+
+            case MARSH:
+                return "dashboard_activity_title_mins";
 
             default:
                 throw new RuntimeException(NOT_AVAILABLE);

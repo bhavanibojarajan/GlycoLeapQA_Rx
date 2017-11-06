@@ -18,6 +18,7 @@ import org.swiften.xtestkit.ios.IOSView;
 import org.swiften.xtestkit.ios.element.locator.AndroidXMLAttribute;
 import org.swiften.xtestkitcomponents.common.ErrorProviderType;
 import org.swiften.xtestkitcomponents.xpath.*;
+import com.holmusk.GlycoLeap.model.DrawerItem;
 
 public interface BaseValidationType extends ErrorProviderType, AppDelayType {
 
@@ -135,8 +136,8 @@ public interface BaseValidationType extends ErrorProviderType, AppDelayType {
 
     /**
      * Get the confirm button for numeric choice inputs
-     * (e.g. {@link com.holmusk.SuperLeapQA.model.Height} and
-     * {@link com.holmusk.SuperLeapQA.model.Weight}).
+     * (e.g. {@link com.holmusk.GlycoLeap.model.Height} and
+     * {@link com.holmusk.GlycoLeap.model.Weight}).
      * @return {@link Flowable} instance.
      * @see Engine#rxe_containsID(String...)
      * @see Engine#rxe_containsText(String...)
@@ -160,8 +161,8 @@ public interface BaseValidationType extends ErrorProviderType, AppDelayType {
 
     /**
      * Get the confirm button for text choice inputs (e.g.
-     * {@link com.holmusk.SuperLeapQA.model.ChoiceInput#ETHNICITY} or
-     * {@link com.holmusk.SuperLeapQA.model.ChoiceInput#COACH_PREF}.
+     * {@link com.holmusk.GlycoLeap.model.ChoiceInput#ETHNICITY} or
+     * {@link com.holmusk.GlycoLeap.model.ChoiceInput#COACH_PREF}.
      * @param engine {@link Engine} instance.
      * @return {@link Flowable} instance.
      * @see Engine#rxe_containsText(String...)

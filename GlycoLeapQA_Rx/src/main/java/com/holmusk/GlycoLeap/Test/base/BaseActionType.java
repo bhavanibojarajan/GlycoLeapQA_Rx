@@ -1,5 +1,7 @@
 package com.holmusk.GlycoLeap.Test.base;
-
+import com.holmusk.GlycoLeap.model.DrawerItem;
+import com.holmusk.GlycoLeap.model.TextInput;
+import com.holmusk.GlycoLeap.model.SLNumericChoiceType;
 import com.holmusk.HMUITestKit.model.HMChoiceType;
 import com.holmusk.HMUITestKit.model.HMInputType;
 import com.holmusk.HMUITestKit.model.HMTextType;
@@ -28,12 +30,13 @@ import org.swiften.xtestkitcomponents.xpath.Attribute;
 import org.swiften.xtestkitcomponents.xpath.Attributes;
 import org.swiften.xtestkitcomponents.xpath.CompoundAttribute;
 import org.swiften.xtestkitcomponents.xpath.XPath;
+import com.holmusk.GlycoLeap.model.DrawerItem;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class BaseActionType extends BaseValidationType, HMDateTimeActionType {
+public interface BaseActionType extends BaseValidationType, HMDateTimeActionType {
 
     /**
      * Navigate backwards by clicking the back button.
@@ -375,7 +378,7 @@ public class BaseActionType extends BaseValidationType, HMDateTimeActionType {
     @NotNull
     default Flowable<?> rxa_selectDrawerItem(@NotNull Engine<?> engine,
                                              @NotNull DrawerItem item) {
-        return rxe_drawerItem(engine, item).compose(engine.clickFn());
+        return rxe_drawerItem(engine,item).compose(engine.clickFn());
     }
     /**
      * Open the drawer and select {@link DrawerItem}.
@@ -397,7 +400,7 @@ public class BaseActionType extends BaseValidationType, HMDateTimeActionType {
 
     /**
      * Navigate back to
-     * {@link com.holmusk.SuperLeapQA.navigation.Screen#DASHBOARD}
+     * {@link com.holmusk.GlycoLeap.navigation.Screen#DASHBOARD}
      * @param engine {@link Engine} instance.
      * @return {@link Flowable} instance.
      * @see #rxe_dashboardBack(Engine)
@@ -423,7 +426,6 @@ public class BaseActionType extends BaseValidationType, HMDateTimeActionType {
                 .map(HPBooleans::toTrue)
                 .onErrorReturnItem(true);
     }
-
     /**
      * Toggle edit mode, then delay for a while for the menu to fully appear.
      * @param engine {@link Engine} instance.
