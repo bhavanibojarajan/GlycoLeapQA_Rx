@@ -20,11 +20,8 @@ public enum Screen implements ScreenInitType{
     LOGIN,
     FORGOT_PASSWORD,
     REGISTER,
-
     DOB,
-
     PERSONAL_INFO,
-
     USE_APP_NOW,
     DASHBOARD_TUTORIAL,
     DASHBOARD,

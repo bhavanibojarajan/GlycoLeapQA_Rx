@@ -10,7 +10,7 @@ import org.swiften.xtestkit.navigation.ScreenType;
 
 import java.util.concurrent.TimeUnit;
 
-public class CSSValueActionType  extends BaseActionType{
+public interface CSSValueActionType  extends BaseActionType{
 
 /**
  * {@link com.holmusk.GlycoLeap.navigation.Screen#WEIGHT_ENTRY}

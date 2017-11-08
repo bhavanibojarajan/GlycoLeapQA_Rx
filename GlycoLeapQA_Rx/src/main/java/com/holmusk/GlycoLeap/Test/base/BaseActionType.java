@@ -46,7 +46,7 @@ public interface BaseActionType extends BaseValidationType, HMDateTimeActionType
      * @see #rxe_backButton(Engine)
      */
     @NotNull
-    default protected Flowable<?> rxa_clickBackButton(@NotNull Engine<?> engine) {
+    default Flowable<?> rxa_clickBackButton(@NotNull Engine<?> engine) {
         if (engine instanceof AndroidEngine) {
             return rxe_backButton(engine)
                     .compose(engine.clickFn())
