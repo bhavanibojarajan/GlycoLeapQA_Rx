@@ -6,9 +6,13 @@ import com.holmusk.GlycoLeap.Test.login.UILoginTestType;
 import org.jetbrains.annotations.NotNull;
 import org.swiften.xtestkit.base.Engine;
 import org.testng.annotations.Factory;
+import com.holmusk.GlycoLeap.Test.logweight.UILogWeightTestType;
+import com.holmusk.GlycoLeap.Test.css.UICSSValueTestType;
 
 public class UILogicValidation extends UIBaseTest implements UIBaseTestType,
-               UILoginTestType
+               UILoginTestType,
+        UILogWeightTestType,
+        UICSSValueTestType
 
 {
     @Factory(

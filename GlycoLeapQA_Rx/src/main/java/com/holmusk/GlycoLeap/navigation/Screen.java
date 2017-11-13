@@ -6,11 +6,8 @@ import io.reactivex.Flowable;
 import org.jetbrains.annotations.NotNull;
 import org.swiften.xtestkit.base.Engine;
 import org.swiften.xtestkit.navigation.NavigationSupplier;
-import org.swiften.javautilities.bool.HPBooleans;
-import org.swiften.javautilities.object.HPObjects;
-import org.swiften.xtestkit.android.AndroidEngine;
 
-import org.swiften.xtestkit.ios.IOSEngine;
+
 
 
 public enum Screen implements ScreenInitType{
@@ -20,8 +17,7 @@ public enum Screen implements ScreenInitType{
     LOGIN,
     FORGOT_PASSWORD,
     REGISTER,
-    DOB,
-    PERSONAL_INFO,
+     PERSONAL_INFO,
     USE_APP_NOW,
     DASHBOARD_TUTORIAL,
     DASHBOARD,
@@ -87,4 +83,4 @@ public enum Screen implements ScreenInitType{
 
 
 
-}
+

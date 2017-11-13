@@ -55,6 +55,9 @@ public enum WeightProgress implements ErrorProviderType {
                 throw new RuntimeException(NOT_AVAILABLE);
         }
     }
+
+
+
     /**
      * Get the value {@link XPath} for {@link Platform#ANDROID}.
      * @param helper {@link InputHelperType} instance.
@@ -87,7 +90,7 @@ public enum WeightProgress implements ErrorProviderType {
             default:
                 throw new RuntimeException(NOT_AVAILABLE);
         }
-
+    }
         /**
          * Get the value {@link XPath} for {@link Platform#IOS}.
          * @param helper {@link InputHelperType} instance.
@@ -117,4 +120,4 @@ public enum WeightProgress implements ErrorProviderType {
 
 
 
-}
+

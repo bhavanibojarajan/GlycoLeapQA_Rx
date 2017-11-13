@@ -8,7 +8,7 @@ import org.swiften.javautilities.util.HPLog;
 import org.swiften.xtestkit.base.Engine;
 import org.swiften.xtestkit.base.model.InputHelperType;
 import org.swiften.xtestkitcomponents.xpath.XPath;
-
+import com.holmusk.GlycoLeap.model.WeightProgress;
 public interface WeightPageValidationType extends BaseValidationType {
 
 

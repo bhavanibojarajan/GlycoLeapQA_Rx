@@ -11,9 +11,12 @@ import org.swiften.xtestkit.ios.IOSEngine;
 import com.holmusk.GlycoLeap.Test.dashboard.DashboardActionType;
 import java.util.concurrent.TimeUnit;
 
+import com.holmusk.GlycoLeap.Test.dashboard.DashboardActionType;
+import com.holmusk.GlycoLeap.Test.mealpage.MealPageActionType;
+
 import static org.swiften.xtestkitcomponents.common.ErrorProviderType.NOT_AVAILABLE;
 
-public interface ScreenInitType extends DashboardActionType {
+public interface ScreenInitType extends DashboardActionType, MealPageActionType {
 
     /**
      * When the app navigates to
